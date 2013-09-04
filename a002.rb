@@ -1,4 +1,5 @@
-#验证如下一些信息：method_missing是class method还是instance method
+# encoding: utf-8
+# #验证如下一些信息：method_missing是class method还是instance method
 #
 #结论：
 # 是实例方法而非类方法，这里的示例应该是错的：
