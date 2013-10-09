@@ -9,7 +9,7 @@ require 'thread/pool'
 #  exit
 #end
 
-$passwords = ["", '123456', 'admin', 'mysql', 'password', '111111']
+$passwords = ["", '123456', 'admin', 'root', 'mysql', 'password', '111111']
 #$passwords = [""]
 
 class MysqlBrute
