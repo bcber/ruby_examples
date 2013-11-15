@@ -1,5 +1,5 @@
-﻿#zmap -p 3306 -N 1000 -o - | ruby mysql_brute.rb 
-require 'mysql2'
+﻿zmap -p 3306 -N 1000 -o - | ruby mysql_brute.rb 
+	require 'mysql2'
 require 'pp'
 require 'thread/pool'
 #gem install mysql2
